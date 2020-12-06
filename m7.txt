@@ -1,0 +1,60 @@
+Psuedocode: Get the Cheesy Puffs
+https://scratch.mit.edu/projects/444195870/
+What are the rules?
+    Use the cat sprite to chase the cheesy puff sprite
+    Catch the cheesy puff sprite with the cat sprite 10x and you win
+How does this translate into code?
+    Use the left, right, up and down arrow to move the cat sprite
+    The cheesy puff sprite will move randomly
+    When the cat sprite and the cheesy puff sprite cross, there will be a moew sound and the score variable will increase by 1 point
+    When the score variable reaches 10 the cat sprite will show a text box that says "Winner!" for 2 seconds and all motion on screen will stop.
+Will you need loops? If/else statements?
+    I will need two if/then statments and one loop for the cat sprite
+What variables?
+    Cat    
+    Mouse
+    score
+Under what circumstances do the variables change?
+    when the cat sprite and cheesy puff sprite cross the score variable will increase by 1 point.
+-------------------------------------------------------------------------------------------------
+Psuedocode: Scratch That Cat
+What are the rulse?
+    Mouse A falls from random location every x secs
+    Mouse B falls from random location every x secs
+    Mouse C falls from random location every x secs
+    Mouse D falls from random location every x secs
+        overlap more as player levels up
+    Shoot ## of mice with projectile in x amount of time to lvl up
+    Miss ## of mice lose ## amount of life
+        if lose ## amount of life game over
+    Shoot mice before reach bottom, if mouse reaches bottom sub from life
+    Life increases with lvl
+    L R keyes to move L R
+    Spacebar to shoot
+    if player shoots mouse, mouse is deleted, player gets 1 pt
+
+How does this translate into code?
+    score = ## of mice hit with projectile, set at 0
+    level = increase in difficulty, more mice less time, set at 0
+    life = ## of misses allowed per lvl, lvl 1 = 3 ; lvl 2 = 4 ; lvl 3 = 5...
+
+Will you need loops? If/else statements?
+    Is the sprite R? T/F
+    Is the sprite L? T/F
+    Is it time for Mouse A,B,C,D to fall? T/F 
+    Has player missed ## of mice? T/F -> game over
+    Has player shot ## of mice? T/F -> lvl up
+
+What variables?
+    mouse
+    time
+    score
+    lvl
+    life
+    sprite
+    porjectile
+    mouse & porjectile/time = game over
+
+Under what circumstances do the variables change?
+    variable change when level up happens?
+         more mice per time = more lives
